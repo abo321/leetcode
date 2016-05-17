@@ -3,11 +3,11 @@
 #include <iostream>
 using namespace std;
 
-typedef std::vector<std::vector<int> > Array_t;
+typedef std::vector<std::vector<int> > Array2_t;
 
-Array_t pascaltriangle(int rows)
+Array2_t pascaltriangle(int rows)
 {
-    Array_t a;
+    Array2_t a;
     a.resize(rows);
 
     for (int i = 0; i < rows; i++)
@@ -22,7 +22,7 @@ Array_t pascaltriangle(int rows)
     return a;
 }
 
-void dump(Array_t a)
+void dump(Array2_t a)
 {
     for (int i = 0; i < a.size(); i++)
     {
@@ -34,7 +34,7 @@ void dump(Array_t a)
 
 int main(int argc, char** argv)
 {
-    Array_t a = pascaltriangle(1);
+    Array2_t a = pascaltriangle(1);
     dump(a);
     std::cout << std::endl;
 
