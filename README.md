@@ -1,5 +1,8 @@
 # leetcode files and description
 
+1. 3sum2.cpp,	optimize for that the sum of 3 integers is the specific target
+1. 3sum.cpp,	the sum of 3 integers is the specific target
+1. 2sum.cpp,	the sum of 2 integers is the specific target
 1. mergesortarray.cpp, Merge 2 sorted array
 2. pascaltriangle2.cpp, Generate Pascal triangle with O(n) space
 3. pascaltriangle.cpp, Generate a Pascal triangle given rows number
