@@ -9,3 +9,5 @@
 7. 2sum.cpp, the sum of 2 integers is the specific target
 8. 3sum.cpp, the sum of 3 integers is the specific target
 9. 3sum2.cpp, optimize for that the sum of 3 integers is the specific target
+10. triangle.cpp, Dymamic method to find the min path sum from top to bottom from a triangle
+11. maxsubarray.cpp, Dynamic method to find the max sum of continous subarray from an array
